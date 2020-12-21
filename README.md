@@ -1,4 +1,4 @@
-[Imgur](https://imgur.com/71Hd829)
+![](https://i.imgur.com/71Hd829)
 
 <h4 align="center"> 
 	🚧  Netflix By Me - Em Construção 🚀 🚧
