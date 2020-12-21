@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/showcase.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/login.css">
+
+
+
     <script src="https://kit.fontawesome.com/af3a0a4d79.js" crossorigin="anonymous"></script>
     <title>Netflix Brasil - Assistir a séries online, Assistir a Filmes Online</title>
 </head>
@@ -12,7 +20,23 @@
     <header class="showcase">
         <div class="showcase-top">
             <img src="img/logo.png" alt="Netflix">
-            <a href="#" class="btn btn-login">Entrar</a>
+            <a href="#" onclick="showLogin()" class="btn btn-login">Entrar</a>
+        </div>
+
+        <div class="login-window hide">
+            <form action="login">
+                <span>Dados da Conta</span>
+                <label>Nome de Usuário</label>
+                <input type="text" id="user-login" name="elogin" placeholder="usuário">
+                <label>Senha</label>
+                <input type="password" id="user-password" name="password" placeholder="senha">
+                <div class="passwordhidden">
+                    <input type="checkbox"  onclick="passwordHidden()"> 
+                    <p>Mostrar senha</p>
+                    <a href="#" id="submit-btn" onclick="getData()" class="btn">Entrar</a>
+                </div>
+                    
+            </form>
         </div>
 
         <div class="showcase-content">
@@ -25,9 +49,9 @@
             </p>
             <div class="form-signup">
                 <form action="#">
-                    <input type="text" id="email" name="email" placeholder="Email">
+                    <input type="text" id="newsletter-email" name="email" placeholder="Email">
                 </form>
-                <a class="btn">Vamos lá <i class="fas fa-chevron-right"></i></a>
+                <a class="btn" onclick="successNewsletter()">Vamos lá <i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
     </header>
@@ -51,19 +75,63 @@
 
     <section class="tab-content">
         <div class="container">
-            <div id="tab-content-1" class="tab-content-item show">
-                <h1>Aproveite na TV</h1>
-                <p>Assista emm Smart TVs, Playstation, Xbos, Chromecast, Apple TV, aparelhos de Blu-Ray e outros dispositivos.</p>
-                <img src="./img/tv.png" alt="Tv com vários filmes e séries">
-                <video width="320" height="240" controls>
-                    <source src="./img/video-tv-0819.m4v" type="Netflix Séries e Filmes">
-                </video>
+            
+            <div id="tab-1-content" class="tab-content-item show">
+                
+                <div class="tab-text">
+                    <h1>Aproveite na TV</h1>
+                    <p>Assista emm Smart TVs, Playstation, Xbos, Chromecast, Apple TV, aparelhos de Blu-Ray e outros dispositivos.</p>
+                </div>
+                
+                <div class="tab-content-img">
+                    <img class="img-small" src="./img/tv.png" alt="Tv com vários filmes e séries"> 
+                    <video class="vid-insert" autoplay loop height="360" width="480">
+                        <source src="./img/video-tv-0819.m4v" type="video/mp4"> 
+                        <source src="./img/video-tv-0819.m4v" type="video/ogg"> 
+                    </source></source></video>
+                </div>
+
             </div>
+
+            <div id="tab-2-content" class="tab-content-item">
+
+                <div class="tab-content-img">
+                    <img class="img-small" src="./img/section2.jpg" alt="Tv com vários filmes e séries"> 
+                </div>                
+
+                <div class="tab-text">
+                    <h1>Baixe séries para assistir Offline</h1>
+                    <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+                </div>                
+
+            </div>
+
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="tab-text">
+                    <h1>Assista quando quiser</h1>
+                    <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+                </div>                
+
+                <div class="tab-content-img">
+                    <img class="img-small" src="./img/devices.png" alt="Tv com vários filmes e séries"> 
+                    <video class="vid-insert" autoplay loop height="360" width="480">
+                        <source src="./img/video-devices.m4v" type="video/mp4"> 
+                        <source src="./img/video-devices.m4v" type="video/ogg"> 
+                    </source></source></video>
+                </div>                
+
+
+            </div>
+
+
+
         </div>
 
     </section>
 
-
+    <script src="./js/tabsshow.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/newsletter.js"></script>
 </body>
 
 </html>

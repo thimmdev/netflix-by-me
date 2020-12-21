@@ -1,0 +1,111 @@
+/* Hide COntent initially */
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+/* Hide COntent initially */
+
+.show {
+  display: flex !important;
+}
+
+/* Tabs Buttons */
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabs p {
+  font-size: 1.5rem;
+  padding-top: 1.4rem;
+}
+
+.tabs {
+  background: var(--dark-color);
+  padding: 1rem 0 0;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container > div {
+  padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+
+/* Tabs-1 Content */
+
+.container .tab-content-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-content-item h1 {
+  font-size: 6rem;
+  margin: 2rem 0 0;
+}
+
+.tab-content-item p {
+  margin: 4rem 0 0;
+  max-width: 70%;
+  line-height: 1.5;
+  font-size: 2.2rem;
+}
+
+.tab-content-img {
+  display: flex;
+}
+
+.tab-content-img .img-small {
+  position: relative;
+  width: 760px;
+  z-index: 1;
+}
+
+.tab-content-img .vid-insert {
+  width: 61%;
+  position: relative;
+  right: 55.5rem;
+  top: 5rem;
+}
+
+/* Tabs-2 Content */
+
+#tab-2-content .tab-content-img img {
+  height: 45vh;
+  width: auto;
+}
+
+/*Tabs-3 content */
+#tab-3-content {
+  max-width: 80;
+}
+
+#tab-3-content .tab-content-img .img-small {
+  position: absolute;
+  width: 760px;
+  z-index: 1;
+}
+
+#tab-3-content .tab-content-img .vid-insert {
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 15rem;
+  align-items: center;
+}

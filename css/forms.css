@@ -1,0 +1,31 @@
+.form-signup {
+  display: flex;
+  justify-content: center;
+}
+
+.form-signup input {
+  width: 60rem;
+  height: 8rem;
+  padding: 1rem 2rem;
+}
+
+.form-signup i {
+  margin: 0 2rem;
+}
+
+.form-signup a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 2rem;
+}
+
+.form-signup ::placeholder {
+  padding-left: 3rem;
+}

@@ -1,0 +1,73 @@
+.login-window {
+  position: relative;
+  float: right;
+  top: 7rem;
+  right: 5rem;
+  background: var(--dark-color);
+  width: 25rem;
+  height: 19rem;
+  display: flex;
+  z-index: 3;
+  border-radius: 0.6rem;
+  justify-content: center;
+}
+
+.login-window ::placeholder {
+  text-align: center;
+}
+
+.login-window .passwordhidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.login-window .passwordhidden p {
+  margin: 1.3rem 1rem;
+}
+
+.login-window .passwordhidden a {
+  font-size: 1rem;
+}
+
+.login-window span {
+  margin: 0.3rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.login-window form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid red;
+}
+
+.login-window label {
+  color: #fff;
+  margin: 0.6rem 0;
+}
+
+.login-window input {
+  padding: 0.4rem 1rem;
+}
+
+.hide {
+  display: none !important;
+}
+
+.active {
+  border-bottom: 1px solid var(--primary-color);
+}
