@@ -1,7 +1,6 @@
-
-<h1 align="center">
-    <img alt="Netflixbyme" title="#netflixbyme" src="https://imgur.com/71Hd829" />
-</h1>
+<kbd align="center>
+    <img width="450" style="border-radius: 5px" height="250" src="https://i.imgur.com/71Hd829" alt="Preview">
+</kbd>
 
 <h4 align="center"> 
 	🚧  Netflix By Me - Em Construção 🚀 🚧
@@ -9,17 +8,17 @@
 
 <h1 align="center">
   <h3>Etapas do Projeto</h3>
-  <p><s>Construção do HTML - Parte Principal</s></p> 🚀
-  <p><s>Construção do HTML - Parte Tabs</s></p> 🚀
-  <p>Construção do HTML - Footer</p> 🚧
-  <p><s>Estilizando com CSS - Parte Principal</s></p> 🚀
-  <p><s>Estilizando com CSS - Parte Tabs</s></p> 🚀
-  <p>Estilizando com CSS - Parte Footer</p> 🚧
-  <p><s>Funcionalidades com Javascript - Janela de Login</s></p> 🚀
-  <p><s>Funcionalidades com Javascript - Email-Newsletter</s></p> 🚀
-  <p><s>Funcionalidades com Javascript - Transição Seção Tabs</s></p> 🚀
-  <p>Converter para ReactJS</p> 🚧
-  <p>Aplicar Back end</p> 🚧 
+  <p><s>Construção do HTML - Parte Principal</s>🚀</p> 
+  <p><s>Construção do HTML - Parte Tabs</s> 🚀</p> 
+  <p>Construção do HTML - Footer 🚧</p> 
+  <p><s>Estilizando com CSS - Parte Principal  🚀</s></p>
+  <p><s>Estilizando com CSS - Parte Tabs 🚀</s></p> 
+  <p>Estilizando com CSS - Parte Footer  🚧</p>
+  <p><s>Funcionalidades com Javascript - Janela de Login  🚀</s></p>
+  <p><s>Funcionalidades com Javascript - Email-Newsletter 🚀</s></p> 
+  <p><s>Funcionalidades com Javascript - Transição Seção Tabs 🚀</s></p> 
+  <p>Converter para ReactJS 🚧</p> 
+  <p>Aplicar Back end 🚧</p> 
 </h1>  
 
 
