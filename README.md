@@ -1,5 +1,5 @@
-<kbd align="center>
-    <img width="450" style="border-radius: 5px" height="250" src="https://i.imgur.com/71Hd829" alt="Preview">
+<kbd>
+    <img align="center" width="450" style="border-radius: 5px" height="250" src="https://i.imgur.com/71Hd829" alt="Preview">
 </kbd>
 
 <h4 align="center"> 
