@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Netflixbyme" title="#netflixbyme" src="./img/netbyme-gif.png" />
+    <img alt="Netflixbyme" title="#netflixbyme" src="https://imgur.com/71Hd829" />
 </h1>
 
 <h4 align="center"> 
