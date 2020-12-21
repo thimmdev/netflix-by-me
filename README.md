@@ -1,4 +1,5 @@
 <kbd>
+	<blockquote class="imgur-embed-pub" lang="en" data-id="a/LU0AsUh" data-context="false" ><a href="//imgur.com/a/LU0AsUh"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     <img align="center" width="450" style="border-radius: 5px" height="250" src="https://i.imgur.com/71Hd829" alt="Preview">
 </kbd>
 
