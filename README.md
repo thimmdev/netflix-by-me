@@ -15,7 +15,7 @@
   <p><s>Funcionalidades com Javascript - Janela de Login  🚀</s></p>
   <p><s>Funcionalidades com Javascript - Email-Newsletter 🚀</s></p> 
   <p><s>Funcionalidades com Javascript - Transição Seção Tabs 🚀</s></p> 
-  <p>Converter para ReactJS 🚧</p> 
+  <p>Fazer nova versão utilizando React 🚧</p> 
   <p>Aplicar Back end 🚧</p> 
 </h1>  
 
