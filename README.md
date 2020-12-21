@@ -1,4 +1,4 @@
-![web-preview](https://github.com/thimmdev/netflix-by-me/blob/master/img/netbyme-gif.gif)
+<h1 align="center">![web-preview](https://github.com/thimmdev/netflix-by-me/blob/master/img/netbyme-gif.gif)</h1>
 
 <h4 align="center"> 
 	🚧  Netflix By Me - Em Construção 🚀 🚧
